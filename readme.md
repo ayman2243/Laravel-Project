@@ -13,12 +13,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # Small_API_Project By Ayman Aljohary
 
-[POST] /api/login : {'email':'admin@admin.com', 'password':'123456'}
-[POST] /api/register : {'name':'hello', 'email':'admin@admin.com', 'password':'123456'}
-[GET] /api/user?token=.... : UserInfo
-[GET] /api/logout?token=.... : logout
-[GET] /api/books?token=.... : Get the user Books
-[POST] /api/books?token=.... : {'title':'book name', 'description': 'book description'}
-[PUT] /api/books/{id}?token=.... : {'title':'book name 11', 'description': 'book description 11'}
-[DELETE] /api/books/{id}?token=.... : Delete Book
+- [POST] /api/login : {'email':'admin@admin.com', 'password':'123456'}
+- [POST] /api/register : {'name':'hello', 'email':'admin@admin.com', 'password':'123456'}
+- [GET] /api/user?token=.... : UserInfo
+- [GET] /api/logout?token=.... : logout
+- [GET] /api/books?token=.... : Get the user Books
+- [POST] /api/books?token=.... : {'title':'book name', 'description': 'book description'}
+- [PUT] /api/books/{id}?token=.... : {'title':'book name 11', 'description': 'book description 11'}
+- [DELETE] /api/books/{id}?token=.... : Delete Book
 

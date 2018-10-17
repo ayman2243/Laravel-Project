@@ -33,7 +33,6 @@ class BookController extends Controller
         );
         $validator = Validator::make($request->all(), $rules);
 
-        // process the login
         if ($validator->fails()) {
             return response()->json($validator->errors());
         } else {
